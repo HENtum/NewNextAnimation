@@ -1,0 +1,43 @@
+.link1 {
+  color: aliceblue;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 5px;
+  width: 500px;
+  font-size: 35px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/fidji-3840x2160-gori-ozero-24117.jpg");
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    width: 510px;
+    height: 410px;
+    background: url("/RE53ei4.jpg");
+    background-size: cover;
+    color: black;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 0px 10px 14px rgba(122, 159, 255, 0.43);
+    -moz-box-shadow: 0px 0px 10px 14px rgba(70, 144, 255, 0.43);
+    box-shadow: 0px 0px 10px 14px rgba(100, 146, 251, 0.43);
+  }
+}
+.img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.divLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

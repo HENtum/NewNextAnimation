@@ -1,0 +1,20 @@
+@media (max-width: 700px) {
+  .container {
+    max-width: 700px;
+    margin: 50px auto 0 auto;
+    padding: 15px;
+  }
+  .link1 {
+    width: 300px;
+    font-size: 20px;
+    height: 200px;
+
+    &:hover {
+      width: 300px;
+      height: 200px;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+}
